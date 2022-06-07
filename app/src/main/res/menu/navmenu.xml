@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/home"
+        android:title="Hem"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/notes"
+        android:title="Anteckningar"
+        android:icon="@drawable/ic_baseline_person_24"/>
+    <item
+        android:id="@+id/faq"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Information" />
+<!--    <item-->
+<!--        android:id="@+id/links"-->
+<!--        android:icon="@android:drawable/ic_menu_more"-->
+<!--        android:title="Länkar" />-->
+</menu>

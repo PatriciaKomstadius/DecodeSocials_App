@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.FaqFragment"
+    android:name="view.FaqFragment"
+    android:id="@+id/faqFragment">
+
+
+    <TextView
+        android:id="@+id/textViewOmHeaderInfo"
+        android:layout_width="278dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:gravity="center"
+        android:text="Mer information"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewConflicts"
+        android:layout_width="246dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="88dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        app:srcCompat="@drawable/bild_konfliktlosning" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewTips"
+        android:layout_width="246dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewConflicts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        app:srcCompat="@drawable/bild_tips" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewAST"
+        android:layout_width="246dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewTips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        app:srcCompat="@drawable/bild_omast" />
+
+    <TextView
+        android:id="@+id/textViewAST"
+        android:layout_width="182dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/wendy_one"
+        android:gravity="center"
+        android:text="@string/las_mer_om_ast"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewAST"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewAST"
+        app:layout_constraintStart_toStartOf="@+id/imageViewAST"
+        app:layout_constraintTop_toTopOf="@+id/imageViewAST"
+        app:layout_constraintVertical_bias="0.869" />
+
+    <TextView
+        android:id="@+id/textViewTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/wendy_one"
+        android:gravity="center"
+        android:text="@string/tips"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewTips"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTips"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTips"
+        app:layout_constraintTop_toTopOf="@+id/imageViewTips"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <TextView
+        android:id="@+id/textViewConflicts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/wendy_one"
+        android:gravity="center"
+        android:text="@string/mer_om_konflikter_och_konfliktlosning"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewConflicts"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewConflicts"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageViewConflicts"
+        app:layout_constraintTop_toTopOf="@+id/imageViewConflicts"
+        app:layout_constraintVertical_bias="0.89" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</layout>

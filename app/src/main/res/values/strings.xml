@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Decode Socials</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="savedSocials">Saved Socials</string>
+    <string name="subjectDescription">Välj om du vill visa alla eller skapa ny anteckning:</string>
+    <string name="question">"<b></b>"</string>
+    <string name="editTextNote">Anteckning</string>
+    <string name="id">id</string>
+    <string name="ja">Ja</string>
+    <string name="spara">Spara</string>
+    <string name="uppdatera">Uppdatera</string>
+    <string name="andra">Ändra</string>
+    <string name="rubrik">Rubrik</string>
+    <string name="radera">Radera</string>
+    <string name="avbryt">Avbryt</string>
+    <string name="nasta">Nästa</string>
+    <string name="tillbaka">Tillbaka</string>
+    <string name="skapa_ny">Skapa ny</string>
+    <string name="visa_alla">Visa alla</string>
+    <string name="anteckning">minnesanteckning</string>
+    <string name="textViewSaveResultQuestion">Vill du spara dina val till en minnesanteckning eller skriva en egen?</string>
+
+    <string name="textIntroSocial">"
+Du kommer nu att få svara på 4 avkodande frågor.\n\n
+Efter det kommer en text med tips och information att visas.\n\n
+  </string>
+
+    <string name="textView_informationTextAvkodadSituation">"
+        Det verkar som att du har varit med om en social situation som kan vara svår att förstå.\n\n
+        För att avkoda situationen är det bra att börja med sig själv.
+        Det kan därför hjälpa att för sig själv försöka besvara dessa frågor innan man går vidare;\n\n
+
+        <b>- Vad har jag observerat?</b>\n\n
+        Att gå tillbaka till händelsen och utifrån beskriva vad som har hänt kan hjälpa vid avkodning. \n\n
+        <u>Vad hände?</u> \n
+        Försök beskriva objektivt utan att tänka på hur det kändes.\n\n
+
+        Skriv gärna ner dina tankar kring:\n\n
+        - Vad jag känner \n\n
+        - Varför frågan är viktig för mig\n\n
+        - Vad jag ville/hoppades\n\n
+        - Vad jag konkret önskar mig av den andre\n\n
+
+        För fler tips och mer ingående information, gå till Information i navigationsbaren nedan.\n\n
+
+        Källa: https://www.gu.se/
+
+\n\n"</string>
+
+    <string name="textView_tips">"
+    Vissa egenskaper är vanliga om man har asperger och förekommer även vid andra tillstånd inom autismspektrat:\n
+    Det kan vara svårt att förstå vad andra menar och känner. Du kan ha svårt att uppfatta miner, kroppsspråk, ironi och osynliga regler i sociala sammanhang.\n
+
+        För att avläsa en situation är det bra att fundera kring:\n
+        Skriv gärna ner dina svar i appen eller på ett papper.\n
+
+       <b>1. Vad jag observerat</b> \n
+        - Här är det viktigt att hålla sig till den faktiska situationen.\n
+Vad hände denna gång i just denna situation? För att undvika konflikter ska man inte gå ta upp tidigare händelser då det kan väcka motstånd hos den du pratar med.\n\n
+- Beskriv vad du observerat i konkreta, specifika ordalag snarare än vagt och svepande.\n
+- Håll dig till observerbara fakta och omständigheter, och håll isär dessa från t.ex. dina
+förmodanden om andras bakomliggande avsikter.\n
+- Formulera dig i beskrivande neutrala termer i stället för att använda värderande
+omdömen om andra.\n\n
+
+        <b>2. Vad jag känner</b>\n
+Frågor att ställa till dig själv:\n\n
+– Vad känner jag?\n\n
+– Varför känner jag det jag känner?\n\n
+– Vad tycker jag om mina känslor?\n\n
+– Vad kan jag göra för att påverka mina känslor?\n\n
+        <b>3. Varför frågan är viktig för mig: vad jag ville/hoppades</b>\n
+
+
+  <b>Olika anledningar:</b>\n\n
+När du känner att du samlat dig själv i situationen kan du börja fundera på olika anledningar till att andra personer reagerar som de gör i olika situationer:\n\n
+
+        Ofta är människan endast medveten om sitt egna synfält, det vill säga att man har lättast för att se saker ur sitt egna perspektiv.\n\n
+        Detta gör man lätt eftersom vissa händelser, omständigheter och problem är så väldigt uppenbara och betydelsefulla för en själv. \n\n
+        Andra kanske dock är fullt upptagna med att tänka på och hantera helt andra problem och uppgifter. \n\n
+        De har möjligen inte ägnat någon tanke åt hur situationen ser ut för dig. \n\n
+        Därför bör du utgå ifrån att andra inte kan veta vad som sysselsätter dina tankar och känslor - om du inte berättar!\n\n
+
+    4. Vad jag konkret önskar mig av den andre
+    Konkret berätta vad du hade velat i samtalet/situationen.\n
+
+
+        Källor:\n
+        https://www.umo.se/jag/funktionsvariation/aspergers-syndrom/aspergers-syndrom---stod-och-hjalp/\n
+        https://www.autismforum.se/stod-och-insatser/sociala-fardigheter/\n
+        https://www.gu.se/\n
+        "</string>
+
+    <string name="header_information_om_ast"><b>Information om AST</b></string>
+
+    <string name="textView_om_ast">"Autismspektrumtillstånd, som ibland förkortas AST, är ett samlingsnamn för flera olika diagnoser.
+        Det kan till exempel vara någon av följande diagnoser:\n
+- Autism
+- autismliknande tillstånd
+- Aspergers syndrom
+
+<b>Hur märks autism?</b>\n
+Autism märks främst på två sätt:\n
+- genom begränsat samspel och kommunikation med andra.\n
+- genom stereotypa val av aktiviteter, beteenden och intressen.\n\n
+
+<b>Vanliga egenskaper vid autism</b>\n
+Du som har autism kan känna igen dig i flera av dessa egenskaper:\n
+- Det kan vara svårt att förstå vad andra menar och känner.\n\n
+-Det kan vara svårt att kommunicera med andra och bli förstådd på rätt sätt.\n\n
+-Vissa intressen tar upp en stor del av din tid.\n\n
+-Det kan vara stressande att göra något som är nytt och ovant.\n\n
+-Det kan vara svårt att bryta beteenden och rutiner som har blivit en vana.\n\n
+-Du kan reagera starkt på sinnesintryck som till exempel ljud, lukter och smaker.\n\n
+-Svårigheter att tolka det sociala samspelet\n\n
+-Det kan vara svårt för dig att förstå och tolka språket så som andra gör, även om du har ett stort ordförråd och väl utvecklat språk.\n\n
+-Du uppfattar ofta det som sägs bokstavligt. Du kan ibland ha svårt att förstå humor, ironi, bildspråk eller liknelser.\n\n
+-Det kan vara svårt för dig att inleda och upprätthålla samtal med andra, när det inte handlar om intressen du själv har.\n\n
+-Det brukar också vara svårt att förstå ansiktsuttryck, gester och tonfall i möten med andra människor.\n\n
+-Ibland är det svårt för dig att hålla ögonkontakt.\n\n
+-Du kanske pratar med en språkmelodi som kan uppfattas som entonig eller mekanisk. Du kan ha begränsat eller inget tal.\n\n
+
+Även om diagnoserna är olika har de också mycket gemensamt. De gemensamma dragen kallas autistiska.\n\n
+
+Ordet autism används därför brett i den här texten, oavsett vilken diagnos inom autismspektrumet det handlar om.\n\n
+Det är vanligt att ha andra funktionsnedsättningar samtidigt med autism, till exempel adhd eller tics.\n\n
+
+<b>Ett annorlunda sätt att fungera</b>\n
+        Autism är en så kallad neuropsykiatrisk funktionsnedsättning. Det har att göra med hur hjärnan fungerar och hanterar information. \n
+        Det är något du föds med, och som består livet ut.\n\n
+        Autism innebär inte att du är sjuk eller att det är något fel på dig, utan att du fungerar på ett annorlunda sätt än vad som oftast förväntas i samhället.\n
+        Det kan i sig leda till att du mår dåligt, om du känner dig utanför och saknar gemenskap med andra.\n\n
+      <b>Ordet autismspektrumtillstånd kan delas in i tre delar:</b>\n
+        Autism beskriver en person som fungerar annorlunda i det sociala samspelet.\n
+        Spektrum är ett ord som används för att beskriva regnbågen, vars färger går i varandra utan en tydlig gräns.\n
+        På samma sätt är diagnoserna inom autismspektrumet inte tydligt indelade.\n
+        Tillstånd innebär att det inte handlar om någon sjukdom, utan ett sätt att vara.\n\n
+På grund av de svårigheter som du upplever kallas det för en funktionsnedsättning,\n
+även om ditt sätt att vara också kan innebära styrkor som andra kanske inte har.\n
+Ett annat ord som kan användas om du hellre vill det, är funktionsvariation.\n\n
+
+        Text och information hämtad från: www.1177.se\n\n"</string>
+
+
+    <string name="textView_om_ast_kort_information">"
+    <b>INFORMATION AST</b>\n\nTEST TEST
+    Vissa egenskaper är vanliga om man har asperger och förekommer även vid andra tillstånd inom autismspektrar:\n
+    Det kan vara svårt att förstå vad andra menar och känner.\n
+    Du kan ha svårt att uppfatta miner, kroppsspråk, ironi och osynliga regler i sociala sammanhang.\n
+
+        <b>Vanliga svårigheter</b>\n\n
+        - Att ha svårigheter med det sociala samspelet kan innebära att man har bristande förståelse för att det finns en skillnad mellan egna och andra människors tankar, känslor och handlingar\n
+        - svårt att förstå sociala normer bristande förmåga till social och känslomässig ömsesidighet\n
+        - låg initiativförmåga att knyta kontakter med andra.\n
+        - Om man har en begränsad förmåga att kommunicera kan det också bli svårare att samspela med andra.\n
+        - Det kan bli svårt med olika slags sociala kontakter, till exempel när man leker, ska samarbeta med kollegor eller umgås med vänner."\n\n
+        Källor:\n
+        https://www.umo.se/jag/funktionsvariation/aspergers-syndrom/aspergers-syndrom---stod-och-hjalp/\n
+        https://www.autismforum.se/stod-och-insatser/sociala-fardigheter/\n</string>
+
+    <string name="textView_konflikthantering">"
+        Gemensamt för många inom AST är svårigheter i det sociala samspelet med andra. På grund av en nedsättning i att tolka och läsa av andra\n
+        människor, såsom ansiktsuttryck, ord och underliggande meningar kan det för personer med AST vara svårt att tolka sociala händelser.\n
+        Detta kan leda till ökad stress, nedsatt psykiskt mående och brister i relationer på grund av missuppfattningar i kommunikationen med andra.
+
+          <b>Vanliga svårigheter</b>\n
+        - Att ha svårigheter med det sociala samspelet kan innebära att man har bristande förståelse för att det finns en skillnad mellan egna och andra människors tankar, känslor och handlingar\n
+        - svårt att förstå sociala normer bristande förmåga till social och känslomässig ömsesidighet\n
+        - låg initiativförmåga att knyta kontakter med andra.\n
+        - Om man har en begränsad förmåga att kommunicera kan det också bli svårare att samspela med andra.\n
+        - Det kan bli svårt med olika slags sociala kontakter, till exempel när man leker, ska samarbeta med kollegor eller umgås med vänner."
+
+   <b> Tips på saker du kan göra själv:</b>\n
+    - Be andra personer att förtydliga vad de menar, om du inte förstår.\n
+    - Be någon som du vet förstår dig, att förklara om du inte förstår vad som förväntas av dig.\n
+    - Det kan vara bra att prata med någon\n
+    - Det kan vara bra att få stöd av en person som inte tillhör familjen, din skola eller ditt jobb.\n
+    - Till exempel någon som jobbar på habiliteringen eller på en psykiatrisk mottagning.\n
+    - Du kan till exempel prata med den personen om stress, relationer till andra personer, självförtroende och självkänsla.\n
+    - Ni kan tillsammans hantera sånt som är jobbigt och utveckla sånt du är bra på.\n\n
+
+        <b>Lär dig om hur du själv funkar</b>\n
+    Livet blir lättare ju mer du lär dig om hur du funkar och vad du behöver.\n
+    Då kan du hitta egna sätt att klara av situationer som brukade vara svåra.\n
+    Och du kan bli bättre på att uttnyttja det du är bra på.\n\n
+    <b>Berätta för andra hur du funkar</b>\n
+    Försök att berätta vad du behöver för att funka på bästa sätt, för personer du litar på.\n
+    Säg att du har asperger och hur det påverkar dig. Kom överens om saker som är viktiga för dig.\n\n
+    Det blir oftast lättare för dig när andra förstår dig och vet vad du behöver.\n
+    Men det är alltid du som bestämmer vad andra ska få veta om dig.\n\n
+
+        Källor:\n
+        https://www.umo.se/jag/funktionsvariation/aspergers-syndrom/aspergers-syndrom---stod-och-hjalp/\n
+        https://www.autismforum.se/stod-och-insatser/sociala-fardigheter/\n\n
+
+</string>
+
+
+    <string name="nej">nej</string>
+    <string name="las_mer_om_ast">Läs mer om AST</string>
+    <string name="mer_om_konflikter_och_konfliktlosning">Hantera konflikter</string>
+    <string name="tips">Tips</string>
+    <string name="textViewSubjectHeaderTips">Tips - bra att tänka på</string>
+    <string name="dina_minnesanteckningar">Dina minnesanteckningar:</string>
+    <string name="skriv_egen">Skriv egen</string>
+    <string name="spara_val">spara val</string>
+    <string name="avkoda_knapp">Sätt igång och avkoda en social situation! Tryck på knappen ovan.</string>
+</resources>

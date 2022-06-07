@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.informationpage.ActivityInfoPageTips"
+        android:name="view.ActivityInfoPageTips"
+        android:id="@+id/activityInfoPageTips">
+
+        <ImageView
+            android:id="@+id/imageViewBackgroundNotes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/gradient_colors"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewSubjectHeaderTips"
+            android:layout_width="348dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="18dp"
+            android:fillViewport="true"
+            android:fontFamily="@font/comfortaa_regular"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/textViewSubjectHeaderTips"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="655dp"
+            android:layout_height="264dp"
+            android:contentDescription="@string/textView_tips"
+            android:fillViewport="true"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="16dp"
+            android:text="@string/textView_om_ast"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView_konflikthantering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/textView_tips"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonBackToFaq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/syncopate_bold"
+            android:radius="20dp"
+            android:text="@string/tillbaka"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            app:backgroundTint="#D9B7B0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.956" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout></layout>
