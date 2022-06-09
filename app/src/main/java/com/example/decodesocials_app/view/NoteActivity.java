@@ -106,7 +106,7 @@ public class NoteActivity extends AppCompatActivity {
 
                             databaseHelper.updateNote(notemodel, updateId);
 
-                            Toast.makeText(NoteActivity.this, "Updated", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(NoteActivity.this, "Uppdaterat", Toast.LENGTH_SHORT).show();
                             Intent intentBack = new Intent(NoteActivity.this, MainActivity.class);
                             intentBack.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             finish();
